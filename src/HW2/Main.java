@@ -19,11 +19,6 @@ public class Main{
                             {"9","10","11","12"},
                             {"13qqq","14qqq","15qqq","16qqq"}};
 
-        String[][] error_array = {{"1","2","3","4","1"},{"1","2","3","4"}};
-        String[][] error_data = {{"1","1","3","4",},{"1","2","аа3","4"}};
-
-
-
         try {
             result = razbor_massiva(array);
         } catch(MyArraySizeException | MyArrayDataException e){
