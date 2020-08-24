@@ -60,7 +60,7 @@ public class Main{
         int row = 0;
         int cell = 0;
 
-        if(array.length != 4 || array[0].length != 4 || array[1].length != 4) {
+        if(array.length != 4) {
             throw new MyArraySizeException();
         }
 
